@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="uk" class="page">
   @include('partials/head.html')
-
+  <header>@include("example_header.html")</header>
   <body class="page__body">
-    <div class="site-container">
-      @include('partials/header.html')
-      <main class="main"></main>
-
-      @include('partials/footer.html')
-      <!-- @include('html/h1.html') пример include -->
-    </div>
+    @include("example.html")
   </body>
 </html>

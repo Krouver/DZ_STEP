@@ -1,0 +1,38 @@
+$h1-color:#fff;
+$bc: black;
+$fz-h1:40px;
+$fz-p:22px;
+
+body{
+
+  background-color: $bc;
+  padding: 50px;
+  height: 100vh;
+}
+h1{
+  color: $h1-color;
+  font-size: $fz-h1;
+  @include flex;
+}
+p{
+  color: $h1-color;
+  font-size: $fz-p;
+  @include flex;
+}
+.block-image{
+  @include flex;
+  flex-wrap: wrap;
+  width: 80%;
+  .item{
+    width: 282px;
+    height: 304px;
+    margin: 24px 24px 0px 0px;
+
+  }
+}
+
+@for $i from 1 through 6 {
+  .item-#{$i} {
+    background-image: url("../img/picture/#{$i}.png");
+  }
+}
