@@ -1,0 +1,14 @@
+:root {
+  --light-color: #fff;
+}
+.nav-link {
+  color: var(--light-color);
+}
+.circle {
+  height: 15px;
+  width: 15px;
+}
+.ic_black {
+  width: 15px;
+  height: 15px;
+}
