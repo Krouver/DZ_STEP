@@ -4,10 +4,9 @@
     "stylelint.vscode-stylelint",
     "jerryhong.autofilename",
     "editorconfig.editorconfig",
-    "mkaufman.htmlhint",
+    "htmlhint.vscode-htmlhint",
     "ritwickdey.liveserver",
     "dbaeumer.vscode-eslint",
-    "rebornix.project-snippets",
-    "mkaufman.HTMLHint"
+    "rebornix.project-snippets"
   ]
 }
